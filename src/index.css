@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Allura&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Pacifico&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .primary-btn {
+    @apply bg-gradient-to-r
+        from-green-700 to-green-500
+        border-2 hover:scale-105 duration-200
+        text-white py-2 px-4 rounded-full;
+  }
+}
+
+@layer components {
+    .shadow-1 {
+      @apply drop-shadow-[-15px_15px_15px_rgba(0,0,0,0,5)];
+    }
+  }

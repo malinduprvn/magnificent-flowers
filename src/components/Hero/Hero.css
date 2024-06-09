@@ -1,0 +1,13 @@
+.rotating-image {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .rotating-image.visible {
+    opacity: 1;
+  }
+  
+  .rotating-image.hidden {
+    opacity: 0;
+  }
+  
